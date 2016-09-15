@@ -4,18 +4,20 @@ package edu.fsu.cs.cen5035;
  *
  * @author Javier
  */
-public class Sword implements Weapon {
+public class Sword extends BasicWeapon implements Weapon {
 
-    private final int HITPOINTS = 50;
+    public Sword() {
+        super(50);
+    }
 
     @Override
     public int hit() {
-        return HITPOINTS;
+        return DAMAGE;
     }
 
     @Override
     public int hit(int armor) {
-        int damage = HITPOINTS - armor;
+        int damage = DAMAGE - armor;
         if (damage < 0) {
             return 0;
         }
