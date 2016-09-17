@@ -7,11 +7,7 @@ a) number of commit been made until step 8 is 3 commits as follow:
  2- update status.txt file
  3- create answers file
 
-b) by using “stat .gitignore” command which shows the last modifing on the local directory  
-Access: 2016-09-17 14:01:05.911377155 -0400 
-Modify: 2016-09-17 13:55:33.922888097 -0400 
-Change: 2016-09-17 13:55:33.922888097 -0400
-or using “gitk .gitignore” command .
+b) by using “gitk .gitignore” command which shows that last commit was on 2016-09-15 10:29:34.
 
 c)according to git log command output this file has 2 commits on sep-15 by Javier.
 
