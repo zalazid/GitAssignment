@@ -1,0 +1,29 @@
+Zaid Alzaid
+CEN 5035
+
+
+a) number of commit been made until step 8 is 3 commits as follow:
+ 1- update ReadMe.md file
+ 2- update status.txt file
+ 3- create answers file
+
+b) by using “stat .gitignore” command which shows the last modifing on the local directory  
+Access: 2016-09-17 14:01:05.911377155 -0400 
+Modify: 2016-09-17 13:55:33.922888097 -0400 
+Change: 2016-09-17 13:55:33.922888097 -0400
+or using “gitk .gitignore” command .
+
+c)according to git log command output this file has 2 commits on sep-15 by Javier.
+
+d) git log: shows the commit logs which contain list of commits history.
+   git status: Show the working tree status which displays paths that have differences between working directory, stage index and 
+repository.
+
+e) under the directory:   GitAssignment/src/edu/fsu/cs/cen5035
+  run the following command:  git log RoleGame.java
+
+
+f) git log --grep=file.  
+
+g) git log --author=Alice --since=2016-09-01 --until=2016-09-16
+
