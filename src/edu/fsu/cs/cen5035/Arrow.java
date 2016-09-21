@@ -13,7 +13,7 @@ public class Arrow extends BasicWeapon implements Weapon {
 
     @Override
     public int hit(int armor) {
-        int damage = DAMAGE - armor + 5 ;
+        int damage = DAMAGE - armor - 5 ;
         if (damage < 0) {
             return 0;
         }

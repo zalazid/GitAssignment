@@ -15,7 +15,7 @@ public class Axe extends BasicWeapon implements Weapon {
     public int hit(int armor) {
         int damage ;
         if (armor>0 && armor <20 )
-            damage = DAMAGE - armor + armor;
+            damage = DAMAGE ;
         else
             damage = DAMAGE - armor ;
         if (damage < 0) {
