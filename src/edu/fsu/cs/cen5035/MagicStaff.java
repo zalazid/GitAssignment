@@ -13,7 +13,7 @@ public class MagicStaff extends BasicWeapon implements Weapon {
 
     @Override
     public int hit(int armor) {
-        int damage = DAMAGE - armor + (armor * 0.2);
+        int damage = DAMAGE - armor + (armor * 20/100);
         if (damage < 0) {
             return 0;
         }
